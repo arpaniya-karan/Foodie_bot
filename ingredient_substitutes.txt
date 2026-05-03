@@ -1,0 +1,124 @@
+INGREDIENT SUBSTITUTION GUIDE FOR HOME COOKS
+=============================================
+
+This file helps FoodieBot suggest alternatives when you're missing an ingredient.
+
+---
+
+COMMON SUBSTITUTES:
+
+Ingredient: Egg
+Substitutes:
+- Mashed banana (for baking): 1 egg = 1/2 banana
+- Flaxseed meal: 1 tbsp flaxseed + 3 tbsp water = 1 egg (let sit 5 mins)
+- Curd/yogurt: 3 tbsp = 1 egg (for binding in bakes)
+Notes: Eggs add binding and moisture. Choose substitute based on the recipe purpose.
+
+---
+
+Ingredient: Butter
+Substitutes:
+- Oil: Use 3/4 the amount of butter called for
+- Ghee: 1:1 ratio, adds rich flavor
+- Curd: For baking moisture (not for sautéing)
+Notes: Ghee is best Indian substitute for butter in most recipes.
+
+---
+
+Ingredient: All-purpose flour / Maida
+Substitutes:
+- Whole wheat flour: 1:1, makes slightly denser result
+- Rice flour: Good for crispy coatings
+- Besan (gram flour): Adds nutty flavor, good for binding
+Notes: For crispy coatings, rice flour works better than wheat flour.
+
+---
+
+Ingredient: Cream
+Substitutes:
+- Full fat milk: Reduces richness but works in soups
+- Curd + milk mixture: 2 tbsp curd + 2 tbsp milk
+- Coconut cream: Great for Indian curries
+Notes: Add curd off the flame to prevent curdling.
+
+---
+
+Ingredient: Paneer
+Substitutes:
+- Tofu: Similar texture, less rich
+- Boiled potato cubes: Absorbs spices well
+- Boiled eggs: Different texture but works in rolls
+Notes: Paneer is firmer than tofu. Press tofu dry before using as substitute.
+
+---
+
+Ingredient: Basmati Rice
+Substitutes:
+- Regular white rice: Works for most recipes
+- Broken wheat/dalia: More nutritious
+- Quinoa: For a healthier pulao
+Notes: Basmati has a distinct aroma. For pulao, it makes a big difference.
+
+---
+
+Ingredient: Soy Sauce
+Substitutes:
+- Salt + a drop of vinegar: Basic substitute
+- Coconut aminos: Slightly sweeter
+- Worcestershire sauce: Adds depth (not vegan)
+Notes: Soy sauce adds umami and color. Reduce salt elsewhere when using soy sauce.
+
+---
+
+Ingredient: Lemon / Lemon Juice
+Substitutes:
+- Amchur (dry mango powder): 1/2 tsp = juice of 1/2 lemon
+- Tamarind water: Adds sourness with different flavor
+- White vinegar: 1/2 the amount (stronger)
+Notes: Amchur is the most common Indian substitute for lemon.
+
+---
+
+Ingredient: Green Chilli
+Substitutes:
+- Red chilli powder: 1/4 tsp per chilli
+- Black pepper: Milder heat
+- Jalapeño: Milder than green chilli
+Notes: Fresh green chilli gives a different heat and flavor than dry chilli powder.
+
+---
+
+Ingredient: Onion
+Substitutes:
+- Spring onion / green onion: Milder flavor
+- Shallots: Sweeter and smaller
+- Onion powder: 1 tsp powder = 1 medium onion (only for cooked dishes)
+Notes: Raw onion in salads is hard to substitute — shallots work best there.
+
+---
+
+Ingredient: Garlic
+Substitutes:
+- Garlic powder: 1/8 tsp = 1 clove
+- Asafoetida/Hing: Small pinch, very different but adds depth
+- Ginger: Won't taste the same but adds aroma
+Notes: Fresh garlic is always best. Garlic powder is the easiest substitute.
+
+---
+
+Ingredient: Milk
+Substitutes:
+- Coconut milk: Rich, adds coconut flavor
+- Soy milk: Neutral flavor
+- Water: For thinning batters (less rich)
+- Curd + water: For Indian recipes
+Notes: For chai, coconut milk works well as a vegan alternative.
+
+---
+
+TIPS FOR SMART SUBSTITUTIONS:
+1. Always consider the role of the ingredient: Is it for flavor, texture, or binding?
+2. Adjust quantities carefully — some substitutes are stronger.
+3. Taste as you cook and adjust.
+4. Common ingredients like onion, garlic, potato, tomato, and rice are available year-round and are great base ingredients.
+5. If you have eggs, bread, potato, and onion — you can make something tasty with almost any recipe in this dataset.
