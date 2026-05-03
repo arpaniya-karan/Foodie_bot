@@ -801,7 +801,7 @@ def main():
                     st.stop()
 
                 # Generate answer
-                               with st.status("🍳 Cooking up your recipe...", expanded=True) as status_widget:
+                with st.status("🍳 Cooking up your recipe...", expanded=True) as status_widget:
                     st.write("🔍 Searching the recipe pantry...")
                     try:
                         answer = generate_recipe_answer(final_query, filters, vectorstore)
