@@ -1,1 +1,93 @@
+Recipe Name: Bread Omelette
+Meal Type: Breakfast
+Cuisine: Continental
+Cooking Time: 10 minutes
+Difficulty: Easy
+Spice Level: Mild
+Ingredients: bread (2 slices), eggs (2), onion (1 small), green chilli (1), salt, pepper, butter, coriander leaves
+Steps:
+1. Beat eggs in a bowl. Add chopped onion, green chilli, coriander, salt and pepper. Mix well.
+2. Heat butter on a pan over medium flame.
+3. Pour the egg mixture and let it set slightly.
+4. Place bread slices on top of the semi-cooked egg.
+5. Flip carefully so egg side is now on top.
+6. Cook for 1-2 more minutes until egg is fully cooked.
+7. Serve hot with ketchup or chutney.
+Notes: Great for quick mornings. You can add cheese on top for extra flavor.
 
+---
+
+Recipe Name: Poha
+Meal Type: Breakfast
+Cuisine: Indian
+Cooking Time: 15 minutes
+Difficulty: Easy
+Spice Level: Mild
+Ingredients: flattened rice/poha (2 cups), onion (1), potato (1 small), mustard seeds, curry leaves, green chilli (1), turmeric (1/4 tsp), salt, lemon juice, coriander, oil
+Steps:
+1. Rinse poha in water and drain. Set aside for 5 minutes to soften.
+2. Heat oil in a pan. Add mustard seeds and let them splutter.
+3. Add curry leaves, green chilli, and chopped onion. Sauté until soft.
+4. Add diced potato. Cook covered for 5 minutes on low flame.
+5. Add turmeric and salt. Mix well.
+6. Add softened poha and mix gently.
+7. Cook for 2-3 minutes. Squeeze lemon juice on top.
+8. Garnish with coriander and serve.
+Notes: Add peanuts for crunch. A classic Indian breakfast that's light and filling.
+
+---
+
+Recipe Name: Oats Bowl
+Meal Type: Breakfast
+Cuisine: Continental
+Cooking Time: 10 minutes
+Difficulty: Easy
+Spice Level: Mild
+Ingredients: rolled oats (1 cup), milk (1.5 cups), banana (1), honey (1 tbsp), cinnamon (a pinch), nuts (optional)
+Steps:
+1. Pour milk into a saucepan and bring to a gentle boil.
+2. Add oats and stir. Reduce flame to low.
+3. Cook for 5-7 minutes, stirring occasionally, until thick and creamy.
+4. Pour into a bowl. Top with sliced banana.
+5. Drizzle honey on top and sprinkle cinnamon.
+6. Add nuts if desired and serve warm.
+Notes: You can also use water instead of milk. Add fruits of your choice. Healthy and filling.
+
+---
+
+Recipe Name: Cheese Egg Sandwich
+Meal Type: Breakfast
+Cuisine: Continental
+Cooking Time: 10 minutes
+Difficulty: Easy
+Spice Level: Mild
+Ingredients: bread (4 slices), eggs (2), cheese slice (2), butter, salt, pepper, ketchup
+Steps:
+1. Scramble eggs in a bowl with salt and pepper.
+2. Heat butter in a pan. Pour eggs and scramble on medium flame until just set.
+3. Toast bread slices lightly with butter.
+4. Place scrambled egg on one bread slice.
+5. Add a cheese slice on top.
+6. Cover with another bread slice.
+7. Press gently and serve with ketchup.
+Notes: You can add veggies like capsicum or tomato to the scrambled eggs.
+
+---
+
+Recipe Name: Pancake
+Meal Type: Breakfast
+Cuisine: Continental
+Cooking Time: 20 minutes
+Difficulty: Easy
+Spice Level: Mild
+Ingredients: all-purpose flour (1 cup), egg (1), milk (1 cup), sugar (2 tbsp), baking powder (1 tsp), salt (a pinch), butter
+Steps:
+1. Mix flour, sugar, baking powder, and salt in a bowl.
+2. In another bowl, whisk egg and milk together.
+3. Combine wet and dry ingredients. Stir gently until just mixed (small lumps are fine).
+4. Heat a pan on medium flame and add a little butter.
+5. Pour a small ladle of batter onto the pan.
+6. Cook until bubbles form on surface (about 2 minutes). Flip.
+7. Cook other side for 1 minute. Repeat with remaining batter.
+8. Serve with honey, jam, or fruit.
+Notes: Do not overmix the batter or pancakes will be tough. Great weekend breakfast!
