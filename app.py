@@ -55,8 +55,13 @@ html, body, [class*="css"] {
     color: var(--text);
 }
 
-/* ── Hide Streamlit chrome ── */
-#MainMenu, footer, header { visibility: hidden; }
+/* ── Hide only menu/footer, keep header visible for sidebar toggle ── */
+#MainMenu, footer { visibility: hidden; }
+
+header[data-testid="stHeader"] {
+    visibility: visible !important;
+    background: transparent !important;
+}
 
 /* ── Hero Section ── */
 .hero-section {
@@ -331,6 +336,20 @@ html, body, [class*="css"] {
     border: 1px solid #F0DCC0;
     margin-bottom: 12px;
     box-shadow: 0 2px 8px var(--shadow);
+}
+
+/* ── Keep Streamlit sidebar reopen button visible ── */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 999999 !important;
+    position: fixed !important;
+    top: 0.75rem !important;
+    left: 0.75rem !important;
+    background: white !important;
+    border-radius: 10px !important;
+    padding: 6px !important;
 }
 </style>
 """, unsafe_allow_html=True)
