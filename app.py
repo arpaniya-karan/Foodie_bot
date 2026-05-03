@@ -19,6 +19,7 @@ LLM_MODEL = os.getenv("LLM_MODEL") or st.secrets.get("LLM_MODEL", "gemini-1.5-fl
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL") or st.secrets.get("EMBEDDING_MODEL", "models/gemini-embedding-001")
 VECTORSTORE_PATH = os.getenv("VECTORSTORE_PATH") or st.secrets.get("VECTORSTORE_PATH", "vectorstore/faiss_index")
 RECIPES_PATH = os.getenv("RECIPES_PATH") or st.secrets.get("RECIPES_PATH", "data/recipes")
+
 # ── Streamlit page config (MUST be first Streamlit call) ─────────────────────
 st.set_page_config(
     page_title="FoodieBot 🍳",
@@ -800,25 +801,25 @@ def main():
                     st.stop()
 
                 # Generate answer
-                with st.status("🍳 Cooking up your recipe...", expanded=True) as status_widget:
+                               with st.status("🍳 Cooking up your recipe...", expanded=True) as status_widget:
                     st.write("🔍 Searching the recipe pantry...")
                     try:
                         answer = generate_recipe_answer(final_query, filters, vectorstore)
                         st.write("✅ Recipe found!")
                         status_widget.update(label="Recipe Ready!", state="complete")
                         st.session_state["last_answer"] = answer
+
                     except Exception as e:
                         status_widget.update(label="Error", state="error")
                         err_str = str(e)
+
                         if "API_KEY" in err_str.upper() or "authentication" in err_str.lower():
-                            st.error("🔑 API Key error. Check your GOOGLE_API_KEY in .env file.")
-                        elif "model" in err_str.lower():
-                            st.error(
-                                f"🤖 Model error: `{LLM_MODEL}` may not be available.\n\n"
-                                "Try changing LLM_MODEL to `gemini-2.0-flash` or `gemini-1.5-flash` in .env"
-                            )
+                            st.error("🔑 API Key error. Check your GOOGLE_API_KEY in Streamlit Cloud secrets.")
                         else:
-                            st.error(f"❌ Unexpected error: {err_str}")
+                            st.error(f"❌ Actual error: {err_str}")
+                            st.info(f"Current LLM_MODEL: {LLM_MODEL}")
+                            st.info(f"Current EMBEDDING_MODEL: {EMBEDDING_MODEL}")
+
                         st.stop()
 
         # ── Show last answer ──────────────────────────────────────────────────
