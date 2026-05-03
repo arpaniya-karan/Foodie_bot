@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GOOGLE_API_KEY   = os.getenv("GOOGLE_API_KEY", "")
-LLM_MODEL        = os.getenv("LLM_MODEL", "gemini-2.5-flash")
+LLM_MODEL        = os.getenv("LLM_MODEL", "gemini-1.5-flash")
 EMBEDDING_MODEL  = os.getenv("EMBEDDING_MODEL", "models/gemini-embedding-001")
 VECTORSTORE_PATH = os.getenv("VECTORSTORE_PATH", "vectorstore/faiss_index")
 RECIPES_PATH     = os.getenv("RECIPES_PATH", "data/recipes")
