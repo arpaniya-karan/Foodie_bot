@@ -14,12 +14,11 @@ from dotenv import load_dotenv
 # ── Load environment variables ────────────────────────────────────────────────
 load_dotenv()
 
-GOOGLE_API_KEY   = os.getenv("GOOGLE_API_KEY", "")
-LLM_MODEL        = os.getenv("LLM_MODEL", "gemini-1.5-flash")
-EMBEDDING_MODEL  = os.getenv("EMBEDDING_MODEL", "models/gemini-embedding-001")
-VECTORSTORE_PATH = os.getenv("VECTORSTORE_PATH", "vectorstore/faiss_index")
-RECIPES_PATH     = os.getenv("RECIPES_PATH", "data/recipes")
-
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY", "")
+LLM_MODEL = os.getenv("LLM_MODEL") or st.secrets.get("LLM_MODEL", "gemini-1.5-flash")
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL") or st.secrets.get("EMBEDDING_MODEL", "models/gemini-embedding-001")
+VECTORSTORE_PATH = os.getenv("VECTORSTORE_PATH") or st.secrets.get("VECTORSTORE_PATH", "vectorstore/faiss_index")
+RECIPES_PATH = os.getenv("RECIPES_PATH") or st.secrets.get("RECIPES_PATH", "data/recipes")
 # ── Streamlit page config (MUST be first Streamlit call) ─────────────────────
 st.set_page_config(
     page_title="FoodieBot 🍳",
